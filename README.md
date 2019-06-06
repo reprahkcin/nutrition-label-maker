@@ -1,7 +1,8 @@
 # nutrition-label-maker
 
 ## Description
-Unity project for creating organic food labels
+Unity project for creating organic food labels.
+Unity version: 2019.1.1f1
 
 ## Functionality
 <ul>
