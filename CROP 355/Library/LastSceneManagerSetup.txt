@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/text-placement.unity
+- path: Assets/Scenes/nutrition-facts.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

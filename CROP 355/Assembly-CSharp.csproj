@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\CreateTextObjects.cs" />
     <Compile Include="Assets\DragTransform.cs" />
+    <Compile Include="Assets\Food.cs" />
     <Compile Include="Assets\GUItest.cs" />
     <Compile Include="Assets\InputPanelScript.cs" />
     <Compile Include="Assets\LoadImage.cs" />
