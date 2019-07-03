@@ -6,6 +6,7 @@ using System;
 
 public class InputPanelScript : MonoBehaviour
 {
+    // Text objects in output label
     public TextMeshProUGUI ServingSize;
     public TextMeshProUGUI ServingsPerContainer;
     public TextMeshProUGUI Calories;
@@ -28,6 +29,35 @@ public class InputPanelScript : MonoBehaviour
     public TextMeshProUGUI Protein;
     public TextMeshProUGUI ProteinPercentage;
 
+    // GUI fields
+    public GameObject ServingSize_field;
+    public GameObject ServingsPerContainer_field;
+    public GameObject Calories_field;
+    public GameObject TotalFat_field;
+    public GameObject TotalFatUnits_field;
+    public GameObject SaturatedFat_field;
+    public GameObject SaturatedFatUnits_field;
+    public GameObject TransFat_field;
+    public GameObject TransFatUnits_field;
+    public GameObject Cholesterol_field;
+    public GameObject CholesterolUnits_field;
+    public GameObject Sodium_field;
+    public GameObject SodiumUnits_field;
+    public GameObject TotalCarbohydrate_field;
+    public GameObject TotalCarbohydrateUnits_field;
+    public GameObject DietaryFiber_field;
+    public GameObject DietaryFiberUnits_field;
+    public GameObject Sugars_field;
+    public GameObject SugarsUnits_field;
+    public GameObject AddedSugars_field;
+    public GameObject AddedSugarsUnits_field;
+    public GameObject Protein_field;
+    public GameObject ProteinUnits_field;
+
+    public GameObject amounts;
+    public GameObject units;
+
+    // variables
     string _ServingSize = "10 pieces";
     string _ServingsPerContainer = "about 20";
     string _Calories = "50";
@@ -52,81 +82,88 @@ public class InputPanelScript : MonoBehaviour
     string _Protein = "0";
     string _ProteinUnits = "g";
 
-    void OnGUI()
+    //void OnGUI()
+    //{
+    //    GUI.Label(new Rect(25, 15, 150, 30), "Serving Size");
+    //    _ServingSize = GUI.TextField(new Rect(25, 35, 150, 30), _ServingSize);
+
+    //    GUI.Label(new Rect(185, 15, 150, 30), "Servings Per Container");
+    //    _ServingsPerContainer =  GUI.TextField(new Rect(185, 35, 150, 30), _ServingsPerContainer);
+
+    //    GUI.Label(new Rect(25, 75, 150, 30), "Calories");
+    //    _Calories = GUI.TextField(new Rect(25, 95, 150, 30), _Calories);
+
+    //    GUI.Label(new Rect(185, 75, 150, 30), "Total Fat");
+    //    _TotalFat = GUI.TextField(new Rect(185, 95, 100, 30), _TotalFat);
+
+    //    GUI.Label(new Rect(285, 75, 100, 30), "Units");
+    //    _TotalFatUnits = GUI.TextField(new Rect(285, 95, 50, 30), _TotalFatUnits);
+
+    //    GUI.Label(new Rect(25, 140, 150, 30), "Saturated Fat");
+    //    _SaturatedFat = GUI.TextField(new Rect(25, 160, 100, 30), _SaturatedFat);
+
+    //    GUI.Label(new Rect(125, 140, 100, 30), "Units");
+    //    _SaturatedFatUnits = GUI.TextField(new Rect(125, 160, 50, 30), _SaturatedFatUnits);
+
+    //    GUI.Label(new Rect(185, 140, 150, 30), "Trans Fat");
+    //    _TransFat = GUI.TextField(new Rect(185, 160, 100, 30), _TransFat);
+
+    //    GUI.Label(new Rect(285, 140, 100, 30), "Units");
+    //    _TransFatUnits = GUI.TextField(new Rect(285, 160, 50, 30), _TransFatUnits);
+
+    //    GUI.Label(new Rect(25, 205, 150, 30), "Cholesterol");
+    //    _Cholesterol = GUI.TextField(new Rect(25, 225, 100, 30), _Cholesterol);
+
+    //    GUI.Label(new Rect(125, 205, 100, 30), "Units");
+    //    _CholesterolUnits = GUI.TextField(new Rect(125, 225, 50, 30), _CholesterolUnits);
+
+    //    GUI.Label(new Rect(25, 270, 150, 30), "Sodium");
+    //    _Sodium = GUI.TextField(new Rect(25, 290, 100, 30), _Sodium);
+
+    //    GUI.Label(new Rect(125, 270, 100, 30), "Units");
+    //    _SodiumUnits = GUI.TextField(new Rect(125, 290, 50, 30), _SodiumUnits);
+
+    //    GUI.Label(new Rect(185, 270, 150, 30), "Total Carbs");
+    //    _TotalCarbohydrate = GUI.TextField(new Rect(185, 290, 100, 30), _TotalCarbohydrate);
+
+    //    GUI.Label(new Rect(285, 270, 205, 30), "Units");
+    //    _TotalCarbohydrateUnits = GUI.TextField(new Rect(285, 290, 50, 30), _TotalCarbohydrateUnits);
+
+    //    GUI.Label(new Rect(25, 335, 150, 30), "Dietary Fiber");
+    //    _DietaryFiber = GUI.TextField(new Rect(25, 355, 100, 30), _DietaryFiber);
+
+    //    GUI.Label(new Rect(125, 335, 100, 30), "Units");
+    //    _DietaryFiberUnits = GUI.TextField(new Rect(125, 355, 50, 30), _DietaryFiberUnits);
+
+    //    GUI.Label(new Rect(185, 335, 150, 30), "Total Sugars");
+    //    _Sugars = GUI.TextField(new Rect(185, 355, 100, 30), _Sugars);
+
+    //    GUI.Label(new Rect(285, 335, 270, 30), "Units");
+    //    _SugarsUnits = GUI.TextField(new Rect(285, 355, 50, 30), _SugarsUnits);
+
+    //    GUI.Label(new Rect(25, 400, 150, 30), "Added Sugars");
+    //    _AddedSugars = GUI.TextField(new Rect(25, 420, 100, 30), _AddedSugars);
+
+    //    GUI.Label(new Rect(125, 400, 100, 30), "Units");
+    //    _AddedSugarsUnits = GUI.TextField(new Rect(125, 420, 50, 30), _AddedSugarsUnits);
+
+    //    GUI.Label(new Rect(185, 400, 150, 30), "Protein");
+    //    _Protein = GUI.TextField(new Rect(185, 420, 100, 30), _Protein);
+
+    //    GUI.Label(new Rect(285, 400, 270, 30), "Units");
+    //    _ProteinUnits = GUI.TextField(new Rect(285, 420, 50, 30), _ProteinUnits);
+
+    //}
+
+    void GetFields()
     {
-        GUI.Label(new Rect(25, 15, 150, 30), "Serving Size");
-        _ServingSize = GUI.TextField(new Rect(25, 35, 150, 30), _ServingSize);
-
-        GUI.Label(new Rect(185, 15, 150, 30), "Servings Per Container");
-        _ServingsPerContainer =  GUI.TextField(new Rect(185, 35, 150, 30), _ServingsPerContainer);
-
-        GUI.Label(new Rect(25, 75, 150, 30), "Calories");
-        _Calories = GUI.TextField(new Rect(25, 95, 150, 30), _Calories);
-
-        GUI.Label(new Rect(185, 75, 150, 30), "Total Fat");
-        _TotalFat = GUI.TextField(new Rect(185, 95, 100, 30), _TotalFat);
-
-        GUI.Label(new Rect(285, 75, 100, 30), "Units");
-        _TotalFatUnits = GUI.TextField(new Rect(285, 95, 50, 30), _TotalFatUnits);
-
-        GUI.Label(new Rect(25, 140, 150, 30), "Saturated Fat");
-        _SaturatedFat = GUI.TextField(new Rect(25, 160, 100, 30), _SaturatedFat);
-
-        GUI.Label(new Rect(125, 140, 100, 30), "Units");
-        _SaturatedFatUnits = GUI.TextField(new Rect(125, 160, 50, 30), _SaturatedFatUnits);
-
-        GUI.Label(new Rect(185, 140, 150, 30), "Trans Fat");
-        _TransFat = GUI.TextField(new Rect(185, 160, 100, 30), _TransFat);
-
-        GUI.Label(new Rect(285, 140, 100, 30), "Units");
-        _TransFatUnits = GUI.TextField(new Rect(285, 160, 50, 30), _TransFatUnits);
-
-        GUI.Label(new Rect(25, 205, 150, 30), "Cholesterol");
-        _Cholesterol = GUI.TextField(new Rect(25, 225, 100, 30), _Cholesterol);
-
-        GUI.Label(new Rect(125, 205, 100, 30), "Units");
-        _CholesterolUnits = GUI.TextField(new Rect(125, 225, 50, 30), _CholesterolUnits);
-
-        GUI.Label(new Rect(25, 270, 150, 30), "Sodium");
-        _Sodium = GUI.TextField(new Rect(25, 290, 100, 30), _Sodium);
-
-        GUI.Label(new Rect(125, 270, 100, 30), "Units");
-        _SodiumUnits = GUI.TextField(new Rect(125, 290, 50, 30), _SodiumUnits);
-
-        GUI.Label(new Rect(185, 270, 150, 30), "Total Carbs");
-        _TotalCarbohydrate = GUI.TextField(new Rect(185, 290, 100, 30), _TotalCarbohydrate);
-
-        GUI.Label(new Rect(285, 270, 205, 30), "Units");
-        _TotalCarbohydrateUnits = GUI.TextField(new Rect(285, 290, 50, 30), _TotalCarbohydrateUnits);
-
-        GUI.Label(new Rect(25, 335, 150, 30), "Dietary Fiber");
-        _DietaryFiber = GUI.TextField(new Rect(25, 355, 100, 30), _DietaryFiber);
-
-        GUI.Label(new Rect(125, 335, 100, 30), "Units");
-        _DietaryFiberUnits = GUI.TextField(new Rect(125, 355, 50, 30), _DietaryFiberUnits);
-
-        GUI.Label(new Rect(185, 335, 150, 30), "Total Sugars");
-        _Sugars = GUI.TextField(new Rect(185, 355, 100, 30), _Sugars);
-
-        GUI.Label(new Rect(285, 335, 270, 30), "Units");
-        _SugarsUnits = GUI.TextField(new Rect(285, 355, 50, 30), _SugarsUnits);
-
-        GUI.Label(new Rect(25, 400, 150, 30), "Added Sugars");
-        _AddedSugars = GUI.TextField(new Rect(25, 420, 100, 30), _AddedSugars);
-
-        GUI.Label(new Rect(125, 400, 100, 30), "Units");
-        _AddedSugarsUnits = GUI.TextField(new Rect(125, 420, 50, 30), _AddedSugarsUnits);
-
-        GUI.Label(new Rect(185, 400, 150, 30), "Protein");
-        _Protein = GUI.TextField(new Rect(185, 420, 100, 30), _Protein);
-
-        GUI.Label(new Rect(285, 400, 270, 30), "Units");
-        _ProteinUnits = GUI.TextField(new Rect(285, 420, 50, 30), _ProteinUnits);
-
+        GameObject[] fields = amounts.GetComponentsInChildren<GameObject>();
     }
 
     void Update()
     {
+
+
         ServingSize.text = _ServingSize;
         ServingsPerContainer.text = _ServingsPerContainer + " servings per container";
         Calories.text = _Calories;

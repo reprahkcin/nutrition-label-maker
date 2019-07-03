@@ -2907,6 +2907,31 @@ MonoBehaviour:
   TotalSugarsPercentage: {fileID: 443406009}
   Protein: {fileID: 576617702}
   ProteinPercentage: {fileID: 414925078}
+  ServingSize_field: {fileID: 1896392900}
+  ServingsPerContainer_field: {fileID: 672319297}
+  Calories_field: {fileID: 63712246}
+  TotalFat_field: {fileID: 131040433}
+  TotalFatUnits_field: {fileID: 403143750}
+  SaturatedFat_field: {fileID: 808265140}
+  SaturatedFatUnits_field: {fileID: 480722737}
+  TransFat_field: {fileID: 1656245039}
+  TransFatUnits_field: {fileID: 1155067263}
+  Cholesterol_field: {fileID: 1958931373}
+  CholesterolUnits_field: {fileID: 1626346620}
+  Sodium_field: {fileID: 336792585}
+  SodiumUnits_field: {fileID: 578703802}
+  TotalCarbohydrate_field: {fileID: 587582099}
+  TotalCarbohydrateUnits_field: {fileID: 799118567}
+  DietaryFiber_field: {fileID: 888810281}
+  DietaryFiberUnits_field: {fileID: 141376610}
+  Sugars_field: {fileID: 482430604}
+  SugarsUnits_field: {fileID: 2098978684}
+  AddedSugars_field: {fileID: 698468759}
+  AddedSugarsUnits_field: {fileID: 1825198551}
+  Protein_field: {fileID: 806735645}
+  ProteinUnits_field: {fileID: 2116283430}
+  amounts: {fileID: 1896331509}
+  units: {fileID: 443097591}
 --- !u!114 &228711700
 MonoBehaviour:
   m_ObjectHideFlags: 0
