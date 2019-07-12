@@ -247,7 +247,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &15707323
 MonoBehaviour:
@@ -620,7 +620,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20634863
 MonoBehaviour:
@@ -835,7 +835,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55830155
 MonoBehaviour:
@@ -2209,7 +2209,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216026187
 MonoBehaviour:
@@ -2367,11 +2367,11 @@ MonoBehaviour:
   - {fileID: 304068781}
   - {fileID: 1663026280}
   - {fileID: 1230599125}
-  - {fileID: 733470517}
   - {fileID: 1886175946}
   servingSize: {fileID: 1754008732}
   servingsPerContainer: {fileID: 2075682558}
   calories: {fileID: 1578904084}
+  addedSugars: {fileID: 733470517}
 --- !u!114 &222376134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3192,7 +3192,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304068783
 MonoBehaviour:
@@ -3249,7 +3249,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -3330,6 +3330,7 @@ MonoBehaviour:
   inputDD: {fileID: 15707323}
   outputLabel: {fileID: 1767030615}
   outputDV: {fileID: 581015796}
+  dailyValueG: 275
 --- !u!1 &308512619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,7 +4644,7 @@ MonoBehaviour:
     m_Right: 20
     m_Top: 20
     m_Bottom: 20
-  m_ChildAlignment: 4
+  m_ChildAlignment: 3
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -6824,7 +6825,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &597969151
 MonoBehaviour:
@@ -6881,7 +6882,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -6962,6 +6963,7 @@ MonoBehaviour:
   inputDD: {fileID: 20634863}
   outputLabel: {fileID: 1999021834}
   outputDV: {fileID: 2068902496}
+  dailyValueG: 20
 --- !u!1 &608616452
 GameObject:
   m_ObjectHideFlags: 0
@@ -7080,7 +7082,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &608951986
 MonoBehaviour:
@@ -8207,7 +8209,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733470519
 MonoBehaviour:
@@ -8264,7 +8266,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -8338,13 +8340,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 733470517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 213212e9d24a0744285d91488a743360, type: 3}
+  m_Script: {fileID: 11500000, guid: b8e23041cafdf6e439a68c6197c815a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inputField: {fileID: 121957221}
   inputDD: {fileID: 608951986}
   outputLabel: {fileID: 108515108}
-  outputDV: {fileID: 0}
+  outputDV: {fileID: 443406009}
+  totalSugar: {fileID: 1844176360}
+  totalSugarDD: {fileID: 1880951241}
+  dailyValueG: 100
 --- !u!1 &735032091
 GameObject:
   m_ObjectHideFlags: 0
@@ -9154,7 +9159,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804242280
 MonoBehaviour:
@@ -9859,11 +9864,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 14
-    m_Right: 0
+    m_Left: -8
+    m_Right: 10
     m_Top: 20
     m_Bottom: 20
-  m_ChildAlignment: 4
+  m_ChildAlignment: 5
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -11886,7 +11891,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016521456
 MonoBehaviour:
@@ -11943,7 +11948,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -12024,6 +12029,7 @@ MonoBehaviour:
   inputDD: {fileID: 1620644783}
   outputLabel: {fileID: 988849034}
   outputDV: {fileID: 1063867238}
+  dailyValueG: 78
 --- !u!1 &1030177152
 GameObject:
   m_ObjectHideFlags: 0
@@ -13347,7 +13353,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1110849917
 MonoBehaviour:
@@ -14838,7 +14844,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230599127
 MonoBehaviour:
@@ -14895,7 +14901,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -14975,7 +14981,8 @@ MonoBehaviour:
   inputField: {fileID: 1844176360}
   inputDD: {fileID: 1880951241}
   outputLabel: {fileID: 1612041118}
-  outputDV: {fileID: 443406009}
+  outputDV: {fileID: 0}
+  dailyValueG: 78
 --- !u!1 &1239447952
 GameObject:
   m_ObjectHideFlags: 0
@@ -17280,7 +17287,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449288506
 MonoBehaviour:
@@ -18816,7 +18823,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578904086
 MonoBehaviour:
@@ -18873,7 +18880,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -18988,7 +18995,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588900451
 MonoBehaviour:
@@ -19045,7 +19052,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -19126,6 +19133,7 @@ MonoBehaviour:
   inputDD: {fileID: 216026187}
   outputLabel: {fileID: 1734867879}
   outputDV: {fileID: 1787643210}
+  dailyValueG: 2.3
 --- !u!1 &1607274969
 GameObject:
   m_ObjectHideFlags: 0
@@ -19402,7 +19410,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620644783
 MonoBehaviour:
@@ -19609,7 +19617,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663026282
 MonoBehaviour:
@@ -19666,7 +19674,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -19747,6 +19755,7 @@ MonoBehaviour:
   inputDD: {fileID: 804242280}
   outputLabel: {fileID: 506008754}
   outputDV: {fileID: 1076540581}
+  dailyValueG: 28
 --- !u!1 &1665922053
 GameObject:
   m_ObjectHideFlags: 0
@@ -19862,7 +19871,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679741270
 MonoBehaviour:
@@ -19919,7 +19928,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -20000,6 +20009,7 @@ MonoBehaviour:
   inputDD: {fileID: 1449288506}
   outputLabel: {fileID: 543384892}
   outputDV: {fileID: 0}
+  dailyValueG: 78
 --- !u!1 &1698788335
 GameObject:
   m_ObjectHideFlags: 0
@@ -20717,7 +20727,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754008734
 MonoBehaviour:
@@ -20774,7 +20784,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -23458,7 +23468,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 30}
+  m_SizeDelta: {x: 49.17, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880951241
 MonoBehaviour:
@@ -23665,7 +23675,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1886175948
 MonoBehaviour:
@@ -23722,7 +23732,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -23803,6 +23813,7 @@ MonoBehaviour:
   inputDD: {fileID: 55830155}
   outputLabel: {fileID: 576617702}
   outputDV: {fileID: 414925078}
+  dailyValueG: 50
 --- !u!1 &1886925187
 GameObject:
   m_ObjectHideFlags: 0
@@ -24493,7 +24504,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957374441
 MonoBehaviour:
@@ -24550,7 +24561,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -24631,6 +24642,7 @@ MonoBehaviour:
   inputDD: {fileID: 1110849917}
   outputLabel: {fileID: 2042341123}
   outputDV: {fileID: 1544871500}
+  dailyValueG: 0.3
 --- !u!1 &1969012254
 GameObject:
   m_ObjectHideFlags: 0
@@ -25741,7 +25753,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 162.8, y: 30.19}
+  m_SizeDelta: {x: 175.67, y: 30.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075682560
 MonoBehaviour:
@@ -25798,7 +25810,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 516
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0

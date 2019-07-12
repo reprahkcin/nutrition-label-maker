@@ -6,6 +6,7 @@ public class UpdateButton : MonoBehaviour
     public GameObject servingSize;
     public GameObject servingsPerContainer;
     public GameObject calories;
+    public GameObject addedSugars;
 
     public void UpdateButtonFunction()
     {
@@ -17,5 +18,6 @@ public class UpdateButton : MonoBehaviour
         servingSize.GetComponent<ServingSize>().Button();
         servingsPerContainer.GetComponent<ServingsPerContainer>().Button();
         calories.GetComponent<Calories>().Button();
+        addedSugars.GetComponent<AddedSugars>().Button();
     }
 }

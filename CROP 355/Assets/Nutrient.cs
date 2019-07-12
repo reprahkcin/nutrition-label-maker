@@ -22,14 +22,15 @@ public class Nutrient : MonoBehaviour
     private double dvInt;
     private string dvSuffix = "";
 
-    private double dailyValueG = 78;
-    private double dailyValueMG = 7800;
+    public double dailyValueG;
+    private double dailyValueMG;
 
     private string test = "test"; 
     private void Start()
     {
         inputField.GetComponentsInChildren<Text>()[1].text = "0";
         nutrientValueStr = "0";
+        dailyValueMG = dailyValueG * 1000;
     }
 
     void GetValues()

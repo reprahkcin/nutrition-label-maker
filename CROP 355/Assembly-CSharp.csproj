@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AddedSugars.cs" />
     <Compile Include="Assets\Calories.cs" />
     <Compile Include="Assets\CreateTextObjects.cs" />
     <Compile Include="Assets\DragTransform.cs" />
