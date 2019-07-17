@@ -62,19 +62,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AddedSugars.cs" />
-    <Compile Include="Assets\Calories.cs" />
-    <Compile Include="Assets\CreateTextObjects.cs" />
-    <Compile Include="Assets\DragTransform.cs" />
-    <Compile Include="Assets\Food.cs" />
-    <Compile Include="Assets\GUItest.cs" />
-    <Compile Include="Assets\LabelLogic.cs" />
-    <Compile Include="Assets\LoadImage.cs" />
-    <Compile Include="Assets\Nutrient.cs" />
-    <Compile Include="Assets\OutputPanelScript.cs" />
-    <Compile Include="Assets\ServingSize.cs" />
-    <Compile Include="Assets\ServingsPerContainer.cs" />
-    <Compile Include="Assets\UpdateButton.cs" />
+    <Compile Include="Assets\Scripts\AddedSugars.cs" />
+    <Compile Include="Assets\Scripts\AddText.cs" />
+    <Compile Include="Assets\Scripts\Calories.cs" />
+    <Compile Include="Assets\Scripts\CreateTextObjects.cs" />
+    <Compile Include="Assets\Scripts\DragTransform.cs" />
+    <Compile Include="Assets\Scripts\Food.cs" />
+    <Compile Include="Assets\Scripts\GUItest.cs" />
+    <Compile Include="Assets\Scripts\LabelLogic.cs" />
+    <Compile Include="Assets\Scripts\LoadImage.cs" />
+    <Compile Include="Assets\Scripts\Nutrient.cs" />
+    <Compile Include="Assets\Scripts\OutputPanelScript.cs" />
+    <Compile Include="Assets\Scripts\RemoveSelf.cs" />
+    <Compile Include="Assets\Scripts\RightClickDelete.cs" />
+    <Compile Include="Assets\Scripts\ServingSize.cs" />
+    <Compile Include="Assets\Scripts\ServingsPerContainer.cs" />
+    <Compile Include="Assets\Scripts\UpdateButton.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
