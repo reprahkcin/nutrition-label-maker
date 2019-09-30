@@ -8,7 +8,7 @@ public class AddText : MonoBehaviour
     public void AddTextWindow()
     {
         GameObject window = Instantiate(TextGenerationWindowPrefab);
-        window.transform.SetParent(GameObject.Find("Canvas").transform,false);
+        window.transform.SetParent(GameObject.Find("LayoutCanvas").transform,false);
     }
 
 }

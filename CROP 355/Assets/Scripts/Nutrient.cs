@@ -11,7 +11,7 @@ public class Nutrient : MonoBehaviour
     public TextMeshProUGUI outputLabel;
     public TextMeshProUGUI outputDV;
 
-    private string nutrientValueStr;
+    public string nutrientValueStr;
     private string nutrientUnitStr;
 
     private string nutrientOutputStr = "0";
