@@ -27,7 +27,11 @@ public class RightClickDelete : MonoBehaviour
 
             if (results[0].gameObject.tag == "Draggable")
             {
-                if (results[0].gameObject.name != "Output Panel(Clone)")
+                if (results[0].gameObject.name != "Output Panel(Clone)" && Input.GetKey(KeyCode.LeftShift))
+                {
+                    Destroy(results[0].gameObject);
+                }
+                if (results[0].gameObject.name != "Output Panel(Clone)" && Input.GetKey(KeyCode.RightShift))
                 {
                     Destroy(results[0].gameObject);
                 }
