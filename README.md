@@ -17,4 +17,8 @@ Unity version: 2019.1.1f1
 
 ## Progress
 The nutrition facts generator is nearly completed. This creates a form does the math to display a properly formatted nutrition facts label. The only thing missing is the vitamins and minerals portion. 
-The ability to browse and import graphics at runtime is working. I need to add scale and position abilities, as well as lock down the maximum size available for import. 
+The ability to browse and import graphics at runtime is working. I need to add scale and position abilities, as well as lock down the maximum size available for import.
+
+
+## TO EDIT:
+You will need to build as 'NutritionFactsTrialBuild' so that it creates the json files with that name to match the shell index.html file on the S3 server. 
